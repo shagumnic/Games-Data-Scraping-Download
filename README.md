@@ -12,5 +12,6 @@ Utilze Web Scraper and REST API to download video game's revelant data for other
 - requests library to request content from a url for either Web Scraping or REST API usage.
 - json and csv library to write the content downloaded to files for future use.
 - requests retry feature to apply delays between each request of the same URL to avoid limit exceeded with those URL.
-- datetime library to work with game's release date (convert them to string to write to json file and convert string to datetime to make appropriate comparision).
+- datetime library to work with game's release date (convert them to string to write to json file)
+- dateutil library to convert string to datetime to make appropriate comparision.
 - re libray: use regex to find relevant content in certain string that was return by Beautiful Soup Web Scraping contents.
