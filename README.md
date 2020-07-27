@@ -6,6 +6,9 @@ Utilze Web Scraper and REST API to download video game's revelant data for other
 - dataUpdateProcess.py: initially use to add a column contain game's description to the current downloaded list of game's data or remove the row that has a null column in the csv file. Doesn't need to use it anymore because that was handle later in the dataDownloadProcess.py.
 - dataUpdate.py: manage which option in the dataUpdateProcess.py the user want to choose (remove row that has null column or add the description column). Doesn't need to be used anymore. 
 
+# How to use:
+- Run the dataDownload.py file and choose how many batch of games you want to process (100 games per batch). The data will be saved in the dataForMachineLearning.csv file
+
 # Tool use:
 - Python
 - BeautifulSoup library to scrape the necessary information from needed website.
